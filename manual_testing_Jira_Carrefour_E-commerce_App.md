@@ -7,7 +7,7 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 **Tools used:** Jira, Zephyr Squad.
 
 ## Functional specifications: 
-The below stories were created in Jira and describe the functional specifications of the "register / login" module, for which the final project is performed upon.
+The stories attached [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_Stories.doc) were created in Jira and describe the functional specifications of the "register / login" module, for which the final project is performed upon.
 
 ![image](https://github.com/DiaconuDana/Proiecte/assets/169816019/a695beb5-3d3a-40fd-b65a-6256b456b6f4)
 

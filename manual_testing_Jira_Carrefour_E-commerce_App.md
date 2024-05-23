@@ -9,10 +9,11 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 ## Functional specifications: 
 The stories attached [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_Stories.doc) were created in Jira and describe the functional specifications of the "register / login" module, for which the final project is performed upon.
 
+You can find an example of one of the stories that were created below.
+
 ![image](https://github.com/DiaconuDana/Proiecte/assets/169816019/a695beb5-3d3a-40fd-b65a-6256b456b6f4)
 
 
-inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
 
 Here you can find the release that was created for this project:
 

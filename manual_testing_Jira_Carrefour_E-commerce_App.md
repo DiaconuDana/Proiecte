@@ -1,10 +1,16 @@
-Testing Project for **Carrefour_E-commerce_App** The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
+# Testing Project for **_Carrefour E-commerce App_** 
 
-Application under test: Inserati aici numele aplicatiei pe care o testati
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Tools used: Jira, Zephyr Squad.
+**Application under test:** carrefour.ro
 
-Functional specifications: The below story (daca aveti mai multe scrieti stories) was created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
+**Tools used:** Jira, Zephyr Squad.
+
+## Functional specifications: 
+The below stories were created in Jira and describe the functional specifications of the "register / login" module, for which the final project is performed upon.
+
+![image](https://github.com/DiaconuDana/Proiecte/assets/169816019/a695beb5-3d3a-40fd-b65a-6256b456b6f4)
+
 
 inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
 

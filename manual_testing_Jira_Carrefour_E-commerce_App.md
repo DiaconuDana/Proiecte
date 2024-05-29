@@ -38,7 +38,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 <tr><td>Project manager</td><td>Ion Popescu</td></tr>
 <tr><td>Product owner</td><td>Maria Ionescu</td></tr> 
 <tr><td>Software developer</td><td>Mihai Andreescu</td></tr> 
-<tr><td>QA Engineer</td><td>Dana Diaconu</td></tr> 
+<tr><td>QA Engineer</td><td>Dana-Gabriela Diaconu</td></tr> 
 </table>
 
 

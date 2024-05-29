@@ -101,23 +101,31 @@ All that the data that is going to be used will have to be created explicitly in
 All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.<br>
 Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs.
 
-#### 1.1.6 Evaluating entry criteria The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
+#### 1.1.6 Evaluating entry criteria 
+The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-### 1.2 Test Monitoring and Control (inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
+### 1.2 Test Monitoring and Control
+(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
 
-### 1.3 Test Analysis The testing process will be executed based on the application requirements. (The requirements analysis has been done in order to implement the early testing test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review).
+### 1.3 Test Analysis 
+
+The testing process will be executed based on the application requirements. 
 
 The following test conditions were found:
 
-(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)
+![teste jira](https://github.com/DiaconuDana/Proiecte/assets/169816019/2a5cf62d-b16c-4d30-8570-617e8414aff1)
 
-### 1.4 Test Design Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
 
-### 1.5 Test Implementation The following elements are needed to be ready before the test execution phase begins:
+### 1.4 Test Design 
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
+
+### 1.5 Test Implementation 
+The following elements are needed to be ready before the test execution phase begins:
 
 (inserati lista de elemente care sunt evaluate in etapa de implementare)
 
-### 1.6. Test Execution Test cases are executed on the created test Cycle summary: (inserati aici numele cycle-ului pe care l-ati creat)
+### 1.6. Test Execution 
+Test cases are executed on the created test Cycle summary: (inserati aici numele cycle-ului pe care l-ati creat)
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat)
 
@@ -125,7 +133,8 @@ The following is a summary of the bugs that have been found (inserati o lista cu
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
-### 1.7 Test Completion As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
+### 1.7 Test Completion 
+As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
 The traceability matrix was generated and can be found here: (inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)
 

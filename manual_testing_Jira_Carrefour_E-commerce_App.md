@@ -128,9 +128,11 @@ The following elements are needed to be ready before the test execution phase be
 ### 1.6. Test Execution 
 Test cases are executed on the created test Cycle summary: Carrefour E-commerce App - User Authentication v1.0
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat)
+Bugs have been created based on the failed tests. The complete bug reports can be found [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_BugReport.pdf).
 
-The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
+The following is a summary of the bugs that have been found:
+
+![bugs jira](https://github.com/DiaconuDana/Proiecte/assets/169816019/57a56fb8-87c1-4f4f-9207-ef24399cdbc0)
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 

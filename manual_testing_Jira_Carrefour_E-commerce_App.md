@@ -139,8 +139,6 @@ The following elements are needed to be ready before the test execution phase be
 
 - test cases and scripts - test cases define specific scenarios to be tested, while scripts provide detailed instructions on how to execute those tests. Having them documented ensures consistent and thorough testing.
 
-- test environment set up - the test environment needs to mirror, as closely as possible, the real-world scenario where the software will be used. This includes having the necessary hardware, software and data ready for testing.
-
 - test data prepared - we'll need a variety of test data to execute our test cases effectively. This data should encompass valid, invalid and edge cases to comprehensively test the system's behavior.
 
 - defect reporting and tracking procedure - A clear process for identifying, reporting and tracking bugs encountered during testing is essential. This ensures efficient resolution of issues and maintains a record for future reference.

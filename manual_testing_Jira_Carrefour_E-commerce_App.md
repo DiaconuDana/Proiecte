@@ -117,7 +117,8 @@ The following test conditions were found:
 
 
 ### 1.4 Test Design 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here (inserati linkul catre fisierul cu testele, in format pdf, word sau csv)
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications.<br>
+The test cases can be accessed [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_TestCases.pdf).
 
 ### 1.5 Test Implementation 
 The following elements are needed to be ready before the test execution phase begins:

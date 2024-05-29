@@ -28,7 +28,7 @@ The test process was performed based on the standard test process as described b
 ### 1.1 Test planning 
 The Test Plan is designed to describe all details of testing for Register/Signup modules from the Carrefour e-commerce application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing and the project risks associated with the plan. The test plan that was created for this project can be found here (inserati link catre documentul cu planul de testare)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing and the project risks associated with the plan. 
 
 #### 1.1.1. Roles asigned to the project and persons allocated 
 
@@ -55,7 +55,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 - No critical issues have status open.
 - All detected errors have been reported and closed.
 - Not finding bugs of major severity in a specific period of time.
-- The budget was reached.
 - The deadline was reached.
 - The objectives were fulfilled.
 - The product usage documentation has been finalized with the scenarios evaluated during the testing phase.
@@ -65,23 +64,21 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.4 Test scope 
 
-##### Tests in scope: (descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
-
+##### Tests in scope
 In order to fulfill the testing objectives, we will focus on the core functionalities of the REGISTER ACCOUNT / LOGIN feature within CARREFOUR e-commerce shop app over the next 2 months.
 It will encompass testing user registration, data validation and error handling aspects.
 
-Based on the business requirements discussed, the functionalities in scope for the e-commerce shop app are:
-###### Register Account
-This module allows users to create new accounts using their email address and password. It will implement strong password enforcement and ensure secure storage of user credentials. (Optional: Social media login, password reset functionality).
-###### Login (implicit) 
-The ability for users to log in with their registered email address and password is assumed to be integrated throughout the app for functionalities requiring an account (e.g., wish list, shopping cart).
+Throughout the testing process, we will perform mostly blackbox testing with the following testing techniques:
+- equivalence partitionong
+- boundary value analysis
+- decision table
 
-Throughout the testing process, we will perform functional testing and some types of non-functional testing (like usability testing), positive testing and negative testing and also, as needed, we will perform retesting and regression testing. 
-Some other types of testing that might be performed if necessary are smoke testing and sanity testing. 
-Other types and techniques of testing will be decided accordingly after requirement analysis.
+From a non-functional perspective, we will perform only usability testing and compatibility testing.<br>
+We will execute positive testing and negative testing scenarios and also (as needed) we will perform retesting and regression testing, when defects are going to be fixed or when modifications of any type are going to be brought to the code.<br> 
+Other types and techniques of testing will be decided accordingly after requirement analysis.<br>
 Testing will be performed at a system testing level.
 
-##### Tests not in scope: (descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+##### Tests not in scope
 All the other modules, except Register account module and Login (implicit), will not be tested throughout this project.
 Non-functional testing like performance (stress testing, load testing, volume testing, scalability testing, spike testing) and security is beyond the scope of this project.
 No QA support for mobile applications developed.<br>
@@ -93,15 +90,15 @@ These functionalities are not part of the current release of the e-commerce web 
 
 #### 1.1.5 Risks detected 
 
-##### Project risks: (enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)
+##### Project risks
 
-The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application.
-Not enough time has been allocated in order to properly test and cover all the functionalities in scope.
+The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application.<br>
+Not enough time has been allocated in order to properly test and cover all the functionalities in scope.<br>
 All that the data that is going to be used will have to be created explicitly in the scope of testing, which will cut off from the time allocated for testing, generating a risk of not reaching the deadline.
 
-##### Product risks: (enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
+##### Product risks
 
-All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.
+All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.<br>
 Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs.
 
 #### 1.1.6 Evaluating entry criteria The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.

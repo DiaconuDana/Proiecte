@@ -6,13 +6,13 @@ The scope of the final project for ITF Manual Testing Course is to use all gaine
 
 **Tools used:** Jira, Zephyr Squad.
 
+
 ## 1. Functional specifications: 
 The stories attached [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_Stories.doc) were created in Jira and describe the functional specifications of the "register / login" module, for which the final project is performed upon.
 
 You can find an example of one of the stories that were created below.
 
 ![image](https://github.com/DiaconuDana/Proiecte/assets/169816019/a695beb5-3d3a-40fd-b65a-6256b456b6f4)
-
 
 
 ## Release
@@ -25,10 +25,12 @@ Here you can find the release that was created for this project:
 ## 2. Testing process 
 The test process was performed based on the standard test process as described below.
 
+
 ### 1.1 Test planning 
 The Test Plan is designed to describe all details of testing for Register/Signup modules from the Carrefour e-commerce application.
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing and the project risks associated with the plan. 
+
 
 #### 1.1.1. Roles asigned to the project and persons allocated 
 
@@ -38,6 +40,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 <tr><td>Software developer</td><td>Mihai Andreescu</td></tr> 
 <tr><td>QA Engineer</td><td>Dana Diaconu</td></tr> 
 </table>
+
 
 #### 1.1.2 Entry criteria defined 
 
@@ -88,6 +91,7 @@ Automation testing is beyond scope.
 Reason: 
 These functionalities are not part of the current release of the e-commerce web app.
 
+
 #### 1.1.5 Risks detected 
 
 ##### Project risks
@@ -101,11 +105,16 @@ All that the data that is going to be used will have to be created explicitly in
 All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.<br>
 Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs.
 
+
 #### 1.1.6 Evaluating entry criteria 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
+
 ### 1.2 Test Monitoring and Control
-(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)
+Periodic reports (daily/weekly/monthly) will be generated to reflect the current status of the testing process.
+
+![Jira_test_metrics](https://github.com/DiaconuDana/Proiecte/assets/169816019/1ee43669-33f1-48d4-8e7b-b80d81492498)
+
 
 ### 1.3 Test Analysis 
 
@@ -117,13 +126,29 @@ The following test conditions were found:
 
 
 ### 1.4 Test Design 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications.<br>
+Functional test cases were created in Zephyr Squad, using Jira as a manual testing tool based on the analysis of the specifications.<br>
 The test cases can be accessed [here](https://github.com/DiaconuDana/Proiecte/blob/main/Jira_TestCases.pdf).
+
 
 ### 1.5 Test Implementation 
 The following elements are needed to be ready before the test execution phase begins:
 
-(inserati lista de elemente care sunt evaluate in etapa de implementare)
+ - defined test objectives and scope - in order to have a clear understanding of what we're aiming to achieve with testing and what functionalities or features will be covered. This ensures everyone's on the same page and avoids wasted effort testing irrelevant areas.
+
+- test strategy and approach - this outlines the overall testing methodology we'll be following. It details the types of testing planned (functional, usability, etc.) and the rationale behind them.
+
+- test cases and scripts - test cases define specific scenarios to be tested, while scripts provide detailed instructions on how to execute those tests. Having them documented ensures consistent and thorough testing.
+
+- test environment set up - the test environment needs to mirror, as closely as possible, the real-world scenario where the software will be used. This includes having the necessary hardware, software and data ready for testing.
+
+- test data prepared - we'll need a variety of test data to execute our test cases effectively. This data should encompass valid, invalid and edge cases to comprehensively test the system's behavior.
+
+- defect reporting and tracking procedure - A clear process for identifying, reporting and tracking bugs encountered during testing is essential. This ensures efficient resolution of issues and maintains a record for future reference.
+
+- test resources assigned - testing requires qualified personnel with the necessary skills and experience. Assigning testers and defining their roles ensures proper test coverage and efficient execution.
+
+- schedule and risk management plan - having a defined testing timeline keeps everyone on track. A risk management plan helps identify potential roadblocks and establish mitigation strategies to ensure smooth test execution.
+
 
 ### 1.6. Test Execution 
 Test cases are executed on the created test Cycle summary: Carrefour E-commerce App - User Authentication v1.0
@@ -136,6 +161,7 @@ The following is a summary of the bugs that have been found:
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
+
 ### 1.7 Test Completion 
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
 
@@ -144,14 +170,14 @@ The traceability matrix was generated and can be found here:
 ![Jira_traceability_matrix](https://github.com/DiaconuDana/Proiecte/assets/169816019/04b929ae-8cfb-433e-a0b7-31ad2bcf809b)
 
 
-
-
 Test execution chart was generated and can be found below.
 
-(inserati aici raportul de executie generat din jira din sectiunea de dashboards)
+![Jira_Test_execution](https://github.com/DiaconuDana/Proiecte/assets/169816019/8c4529b0-6e0d-4769-8aa3-ba057efe7c76)
 
-The final report shows that a number 17 tests have failed of a total of (inserati numarul de teste)
 
-A number of 8 total bugs were found, from which the priority is: (inserati numarul de bug-uri) are high and (inserati numarul de bug-uri) are medium.
+The final report shows that a number of 5 tests have failed out of a total of 17 tests executed.
+
+A number of **8 bugs** were found, from which **2 bugs are of high risk and low severity**, which can be fixed later and **6 bugs are medium risk**. That means the product can be released into production.
+
 
 (inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)

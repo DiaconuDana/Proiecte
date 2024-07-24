@@ -44,7 +44,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.2 Entry criteria defined 
 
-- Testing environment is up and running (being an already live application, we will have the environment ready even before the implementation step).
 - Business requirements are completed by the analysis team and are delivered to the appropriate testing team for evaluation.
 - Potential project risks are detected and mitigated.
 - Roles and responsibilities are allocated.
@@ -96,14 +95,14 @@ These functionalities are not part of the current release of the e-commerce web 
 
 ##### Project risks
 
-The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application.<br>
-Not enough time has been allocated in order to properly test and cover all the functionalities in scope.<br>
-All that the data that is going to be used will have to be created explicitly in the scope of testing, which will cut off from the time allocated for testing, generating a risk of not reaching the deadline.
+- The team does not have the proper knowledge or experience in order to guarantee the desired level of quality for the application.<br>
+- Not enough time has been allocated in order to properly test and cover all the functionalities in scope.<br>
+- All that the data that is going to be used will have to be created explicitly in the scope of testing, which will cut off from the time allocated for testing, generating a risk of not reaching the deadline.
 
 ##### Product risks
 
-All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.<br>
-Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs.
+- All the data that is going to be used will be test data, which will not give us an experience of the application close enough to the ones that the user will experience.<br>
+- Taking into account that only two modules are in the scope of testing, the rest of the modules will still be at risk of not fulfilling the user needs.
 
 
 #### 1.1.6 Evaluating entry criteria 

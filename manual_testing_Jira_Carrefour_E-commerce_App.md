@@ -162,15 +162,17 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 ### 1.7 Test Completion 
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
 
-The traceability matrix outlines the number of the business requirements created, the number of tests executed for each business requirement and the number of bugs reported.
-I created 3 business requirements (3 stories) and the tests distribution was:
-  - story ST3DD-2 - 14 test cases, with 5 errors found
-  - story ST3DD-3 -  2 test cases, with 2 errors found
-  - story ST3DD-4 - 10 test cases, with 3 errors found
-
-The traceability matrix was generated and can be found here:
+The traceability matrix outlines the number of the business requirements created, the number of tests executed for each business requirement and the number of bugs reported. It was generated and can be found here:
 
 ![Jira_traceability_matrix](https://github.com/DiaconuDana/Proiecte/assets/169816019/04b929ae-8cfb-433e-a0b7-31ad2bcf809b)
+
+I created 3 business requirements (3 stories) and the tests distribution was:
+  - story ST3DD-2 - As a new user, I want to register for an account using my email address and a secure password, so I can access the app’s full features
+         - 14 test cases created, with 5 errors found
+  - story ST3DD-3 - As a user, I want to receive a confirmation email after successful registration.
+         - 2 test cases, with 2 errors found
+  - story ST3DD-4 - As a registered user, I want to be able to log in to the app using my email address and password.
+         - 10 test cases, with 3 errors found
 
 
 Test execution chart was generated and can be found below.
